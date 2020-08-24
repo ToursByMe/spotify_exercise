@@ -416,8 +416,8 @@ small a{
     margin: -100px 0 0 0;
     padding: 100px;
     padding-top: 125px;
-    right: -20px;
-
+    right: 0px;
+    width: 100vw;
     text-align: left;
 
     overflow-x: hidden;
@@ -577,31 +577,4 @@ ayuda tutorial
     font-size: 95%;
     text-align: right;
 }
-
-}
-@media all and (max-width: 450px){
-
-    #menu{
-        width: 300px;
-        right: 0;
-    }
-}
-@media all and (max-width: 350px){
-
-    #menu{
-        width: 250px;
-    }
-}
-@media all and (max-width: 300px){
-
-    #menu{
-        width: 220px;
-    }
-}
-@media all and (max-width: 280px){
-
-    #menu{
-        width: 150px;
-        padding: 0 0 0 100px;
-    }
 }
