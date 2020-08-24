@@ -61,6 +61,7 @@ nav  ul{
 nav ul li{
 
     display: inline-block;
+    margin: 0 auto;
     margin-left: 2rem;
     padding: 2rem  0;
 
@@ -168,7 +169,8 @@ footer{
 
     display:block;
     margin: 0 auto;
-    width: 85%;
+    width: 83%;
+    padding: 0 3% 0 5px;
 }
 .pieWeb{
     display: flex;
@@ -411,13 +413,12 @@ small a{
   #menu
   {
     position: absolute;
-    width: 400px;
+    width: 100vw;
     height: 100vh;
     margin: -100px 0 0 0;
-    padding: 100px;
+    padding: 0 0px 0 20px;
     padding-top: 125px;
     right: 0px;
-    width: 100vw;
     text-align: left;
 
     overflow-x: hidden;
