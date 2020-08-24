@@ -583,6 +583,7 @@ ayuda tutorial
 
     #menu{
         width: 300px;
+        right: 0;
     }
 }
 @media all and (max-width: 350px){
